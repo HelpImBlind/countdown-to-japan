@@ -47,7 +47,7 @@ html, body {
 
 .timer {
     margin: 20px;
-    color: black;
+    color: black; 
     font-family: var(--main-font);
     font-size: 56px;
     font-weight: 600;
