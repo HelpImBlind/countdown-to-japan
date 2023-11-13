@@ -15,7 +15,7 @@ html, body {
 
 .iframe-bg {
     position: absolute;
-    background-image: url(..countdown-to-japan/images/bg-img.jpg);
+    background-image: url(bg-img.jpg);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
