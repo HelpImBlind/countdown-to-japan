@@ -15,7 +15,7 @@ html, body {
 
 .iframe-bg {
     position: absolute;
-    background-image: url(/images/bg-img.jpg);
+    background-image: url(../images/bg-img.jpg);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -69,10 +69,10 @@ html, body {
     left: 0;
     width: 70px;
     transform: translate(0%, -50%);
-    animation: flyPlane linear infinite;
+    animation: linkCharge linear infinite;
 }
 
-@keyframes flyPlane {
+@keyframes linkCharge {
     from {
         left: 0;
     }
