@@ -30,10 +30,14 @@ html, body {
     align-items: center;
     width: 100%;
     text-align: center;
+    font-size: 100px;
+    font-family: var(--main-font);
+    font-weight: 700;
+
 }
 
 .timer-block {
-    margin: 0px 35px;
+    min-width: 150px;
 }
 
 .timer-block > p {
@@ -46,7 +50,7 @@ html, body {
     color: black;
     font-family: var(--main-font);
     font-size: 56px;
-    font-weight: 600;;
+    font-weight: 600;
 }
 
 .timer-img {
@@ -58,3 +62,22 @@ html, body {
     bottom: 0px;
     left: 0px;
 }
+
+#link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    transform: translate(0%, -50%);
+    animation: flyPlane linear infinite;
+}
+
+@keyframes flyPlane {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+
